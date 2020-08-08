@@ -1,0 +1,80 @@
+@import "../../App.scss";
+
+.section-2 {
+	width: 100%;
+	height: 100%;
+	padding: 15rem 0 10rem 0;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	& > .progress-bars-wrapper {
+		margin-bottom: 10rem;
+
+		& > .progress-bar {
+			width: 60rem;
+			height: 3rem;
+			background: #ccc;
+			margin: 1.5rem 0;
+			border-radius: 0.3rem;
+			box-shadow: 0.2rem 0.2rem 1rem #555;
+			position: relative;
+
+			& > .progress-text {
+				position: absolute;
+				left: 1rem;
+				font-size: 1.5rem;
+				color: #fff;
+
+				& > span {
+					margin: 0 0.5rem;
+					font-size: 1.8rem;
+					font-weight: 700;
+				}
+			}
+
+			& > .progress-percent {
+				width: 0%;
+				height: 100%;
+				background: $main-color-text;
+				border-radius: 0.3rem;
+				transition: width 0.5s 0.5s ease-in-out;
+			}
+		}
+	}
+}
+
+.services {
+	width: 100%;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	& > .service {
+		text-align: center;
+
+		&:first-child,
+		&:last-child {
+			align-self: flex-start;
+		}
+
+		& > i {
+			font-size: 10rem;
+			color: #888;
+			margin-bottom: 2rem;
+			text-shadow: 0.1rem 0.1rem 0.5rem #555;
+		}
+
+		& > h2 {
+			font-size: 2rem;
+			color: #fff;
+			background: #777;
+			width: 25rem;
+			letter-spacing: 0.3rem;
+			transform: skew(-10deg);
+			box-shadow: 0.2rem 0.2rem 0.5rem #555;
+		}
+	}
+}

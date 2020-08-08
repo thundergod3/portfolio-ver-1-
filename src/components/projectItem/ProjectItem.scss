@@ -1,0 +1,72 @@
+@import "../../App.scss";
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	background: #fff;
+	box-shadow: 0.3rem 0.3rem 0.5rem #777;
+	position: relative;
+	overflow: hidden;
+	transition: box-shadow 0.6s;
+
+	&:hover {
+		box-shadow: 1rem 1rem 1rem #777;
+	}
+
+	& > .project-text {
+		text-align: center;
+		padding: 0.1rem;
+		position: absolute;
+		top: -10rem;
+		transition: top 0.5s;
+		z-index: 1;
+
+		& > .project-name {
+			font-size: 3rem;
+			font-weight: 700;
+			color: #333;
+			text-transform: capitalize;
+		}
+
+		& > .project-technologies {
+			font-size: 1.8rem;
+			color: $main-color-text;
+		}
+	}
+
+	& > .project-img {
+		width: 38rem;
+		height: 240px;
+		transition: opactiy 0.3s;
+	}
+
+	& > .project-link {
+		font-size: 2rem;
+		font-weight: 500;
+		color: #333;
+		letter-spacing: 0.1rem;
+		border: solid 0.3rem $main-color-text;
+		padding: 0 1rem;
+		background: #fff;
+		position: absolute;
+		bottom: -5rem;
+		transition: bottom 0.3s;
+	}
+
+	&:hover .project-text {
+		top: 5rem;
+		transition: top 0.3s 0.3s;
+	}
+
+	&:hover .project-link {
+		bottom: 5rem;
+		transition: bottom 0.3s 0.3s;
+	}
+
+	&:hover .project-img {
+		opacity: 0.2;
+	}
+}

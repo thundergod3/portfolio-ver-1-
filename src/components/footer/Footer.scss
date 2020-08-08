@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+.section-5 {
+	width: 100%;
+	height: 30vh;
+	background: #222;
+	flex-direction: column;
+
+	& > .social-media {
+		margin-bottom: 5rem;
+
+		& > .social-media-link {
+			margin: 0 2rem;
+			padding: 0.7rem;
+			background: $main-color-text;
+			border-radius: 0.5rem;
+			display: inline-block;
+
+			& > i {
+				font-size: 3rem;
+				color: #fff;
+			}
+		}
+	}
+
+	& > .copyright {
+		color: #888;
+		font-size: 2rem;
+		letter-spacing: 0.2rem;
+		font-weight: 300;
+		text-align: center;
+	}
+}
