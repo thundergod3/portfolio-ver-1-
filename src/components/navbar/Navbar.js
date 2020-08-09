@@ -7,7 +7,7 @@ const Navbar = () => {
 	const [statusScroll, setStatusScroll] = useState(false);
 	let navbar;
 	const navbarOffsetTop = 730;
-	const progressBarPercents = [97, 90, 89, 87, 85, 82, 70, 50];
+	const progressBarPercents = [70, 70, 60, 70, 70, 70, 60, 50, 70, 50];
 
 	useEffect(() => {
 		navbar = document.querySelector(".navbar");

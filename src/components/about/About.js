@@ -5,34 +5,42 @@ import "./About.scss";
 const progressList = [
 	{
 		title: "HTML",
-		percent: 97,
-	},
-	{
-		title: "CSS",
-		percent: 90,
-	},
-	{
-		title: "SASS",
-		percent: 89,
-	},
-	{
-		title: "JavaScript",
-		percent: 87,
-	},
-	{
-		title: "ReactJS",
-		percent: 85,
-	},
-	{
-		title: "Redux / Redux-Saga",
-		percent: 82,
-	},
-	{
-		title: "Bootstrap / Material-UI",
 		percent: 70,
 	},
 	{
+		title: "CSS",
+		percent: 70,
+	},
+	{
+		title: "SASS",
+		percent: 60,
+	},
+	{
+		title: "JavaScript",
+		percent: 70,
+	},
+	{
+		title: "ReactJS",
+		percent: 70,
+	},
+	{
+		title: "Redux / Redux-Saga",
+		percent: 70,
+	},
+	{
+		title: "Bootstrap / Material-UI",
+		percent: 60,
+	},
+	{
 		title: "Firebase",
+		percent: 50,
+	},
+	{
+		title: "Photoshop",
+		percent: 70,
+	},
+	{
+		title: "Figma",
 		percent: 50,
 	},
 ];
