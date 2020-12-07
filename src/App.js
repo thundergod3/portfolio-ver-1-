@@ -40,10 +40,6 @@ const App = () => {
 		window.addEventListener("scroll", () => changeColor());
 	}, []);
 
-	useEffect(() => {
-		window.addEventListener("scroll", () => changeColor());
-	}, [statusScroll]);
-
 	return (
 		<div className="container">
 			<Landing />

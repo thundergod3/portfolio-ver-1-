@@ -1,6 +1,6 @@
 import React from "react";
 
-import personImg from "../../images/person.jpg";
+import personImg from "../../images/person_1.jpg";
 import "./Landing.scss";
 
 const Landing = () => {

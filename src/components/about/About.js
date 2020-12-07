@@ -20,6 +20,10 @@ const progressList = [
 		percent: 70,
 	},
 	{
+		title: "TypeScript",
+		percent: 70,
+	},
+	{
 		title: "ReactJS",
 		percent: 70,
 	},

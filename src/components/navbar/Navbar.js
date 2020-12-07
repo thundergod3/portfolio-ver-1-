@@ -7,7 +7,7 @@ const Navbar = () => {
 	const [statusScroll, setStatusScroll] = useState(false);
 	let navbar;
 	const navbarOffsetTop = 730;
-	const progressBarPercents = [70, 70, 60, 70, 70, 70, 60, 50, 70, 50];
+	const progressBarPercents = [70, 70, 60, 70, 70, 70, 70, 60, 50, 70, 50];
 
 	useEffect(() => {
 		navbar = document.querySelector(".navbar");
@@ -26,6 +26,10 @@ const Navbar = () => {
 		if (window.pageYOffset + window.innerHeight >= progress.offsetTop) {
 			document.querySelectorAll(".progress-percent").forEach((el, index) => {
 				el.style.width = `${progressBarPercents[index]}%`;
+			});
+		} else {
+			document.querySelectorAll(".progress-percent").forEach((el, index) => {
+				el.style.width = 0;
 			});
 		}
 	};

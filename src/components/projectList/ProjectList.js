@@ -11,6 +11,7 @@ import images8 from "../../images/budget-calculator.jpg";
 import images9 from "../../images/store-phone.jpg";
 import images10 from "../../images/expense-tracker.jpg";
 import images11 from "../../images/count-down-XO-game-app.jpg";
+import images12 from "../../images/a_u_nho.png";
 
 import "./ProjectList.scss";
 
@@ -78,10 +79,16 @@ const projectList = [
 		technologies: "ReactJS / Redux / Redux-Saga / CSS / Boostrap ",
 	},
 	{
-		name: "Countdown - XO Game App",
+		name: "Countdown - XO Game",
 		img: images11,
 		link: "https://thundergod3.github.io/Web_final-C4T8/",
 		technologies: "HTML / CSS / JS",
+	},
+	{
+		name: "À ừ nhở",
+		img: images12,
+		link: "http:aunho.ml",
+		technologies: "ReactJS / Redux / Redux-Saga / Material-UI / SCSS",
 	},
 ];
 
